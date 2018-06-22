@@ -6,9 +6,14 @@ $(document).ready(function(){
 	var currentIndex2 = '';
 	var slidePos = '';
 	
+	$(window).on('beforeunload', function() {
+		$(window).scrollTop(0);
+	});
+	
 	$('.navi li a[href="#home"]').parent().addClass("active");
 	
-	$(".navi li a").click(function(){
+	$(".navi li a").click(function(e){
+		e.preventDefault();
 		$(".navi").find(".active").removeClass('active');
 		$(this).parent().addClass("active");
 		$('html, body').animate({
@@ -19,10 +24,6 @@ $(document).ready(function(){
 	$(".navi li a").each(function(){
 		array.push($(this).attr("href"));
 		slidearr.push([$(this).attr("href"), false]);
-	});
-	
-	$(window).on('beforeunload', function() {
-		$(window).scrollTop(0);
 	});
 
 	function findIndex(valueToSearch, array) {

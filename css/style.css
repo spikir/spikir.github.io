@@ -113,7 +113,6 @@ body {
 	margin-right: auto;
 	margin-top: 30px;
 	opacity: 0;
-	overflow: hidden;
 	border-top-left-radius: 100%100px;
 	border-top-right-radius: 100%100px;  
 }
@@ -132,7 +131,6 @@ body {
 	margin-right: auto;
 	margin-top: 30px;
 	opacity: 0;
-	overflow: hidden;
 }
 
 #portfolio h1 {
@@ -153,7 +151,6 @@ body {
 	margin-right: auto;
 	margin-top: 30px;
 	opacity: 0;
-	overflow: hidden;
 }
 
 #contact h1 {
@@ -198,7 +195,6 @@ body {
 	margin-right: auto;
 	margin-top: 30px;
 	opacity: 0;
-	overflow: hidden;
 	border-bottom-left-radius: 100%100px;
 	border-bottom-right-radius: 100%100px;  
 }
@@ -320,8 +316,6 @@ body {
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: center;
-	height: auto;
-	overflow: auto;
 }
 
 .containerport {
@@ -329,7 +323,6 @@ body {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	overflow: auto;
 }
 
 .containerport h3 {
@@ -396,8 +389,6 @@ body {
 }
 
 .intro {
-	height: auto;
-	overflow: auto;
 	display: flex;
 	align-items: center;
     justify-content: center;
@@ -652,9 +643,15 @@ body {
 		margin-right: 0px;
 	}
 	
+	.profiletext .intro:first-child  .firstLetter{
+		width: 25%;
+		text-align: right;
+	}
+	
 	.firstLetter {
 		width: 25%;
 		font-size: 160px;
+		text-align: center;
 	}
 	
 	.skillstext {
