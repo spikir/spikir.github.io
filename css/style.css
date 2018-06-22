@@ -115,6 +115,8 @@ body {
 	opacity: 0;
 	border-top-left-radius: 100%100px;
 	border-top-right-radius: 100%100px;  
+	height: auto;
+	overflow: auto;
 }
 
 #about h1 {
@@ -131,6 +133,8 @@ body {
 	margin-right: auto;
 	margin-top: 30px;
 	opacity: 0;
+	height: auto;
+	overflow: auto;
 }
 
 #portfolio h1 {
@@ -151,6 +155,8 @@ body {
 	margin-right: auto;
 	margin-top: 30px;
 	opacity: 0;
+	height: auto;
+	overflow: auto;
 }
 
 #contact h1 {
@@ -196,7 +202,9 @@ body {
 	margin-top: 30px;
 	opacity: 0;
 	border-bottom-left-radius: 100%100px;
-	border-bottom-right-radius: 100%100px;  
+	border-bottom-right-radius: 100%100px;
+	height: auto;
+	overflow: auto;	
 }
 
 .icons {
@@ -620,6 +628,9 @@ body {
 	#about {
 		width: 100%;
 	}
+	
+	
+	
 	
 	#portfolio {
 		width: 100%;
