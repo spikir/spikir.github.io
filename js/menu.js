@@ -47,6 +47,12 @@ $(document).ready(function(){
 		}
 	}
 	
+	$('.scrolldown').on('click', function() {
+		$('body').animate({
+			scrollTop: $('#about').offset().top - 50
+		}, 500);
+	});
+	
 	$(".backtotop").click(function(){
 		$('html, body').animate({
 			scrollTop: $("#home").offset().top
