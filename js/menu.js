@@ -47,6 +47,16 @@ $(document).ready(function(){
 		}
 	}
 	
+	function is_touch_device() {
+		return 'ontouchstart' in window || navigator.maxTouchPoints;
+	};
+
+	if ( is_touch_device() ) {
+		$('.navi ul').addClass('touch');
+	} else {
+		$('.navi ul').addClass('no-touch');
+	} 
+	
 	$('.scrolldown').on('click', function() {
 		$('body').animate({
 			scrollTop: $('#about').offset().top - 50

@@ -89,7 +89,7 @@ body {
 	text-align: center;
 }
 
-.navi ul li:hover {
+.navi .no-touch li:hover {
 	background-color: #303030;
 }
 
@@ -471,11 +471,11 @@ body {
 	}
 	
 	.icons a:first-of-type img{
-		margin: 30px 15px 15px 15px;
+		margin: 30px 15px 15px 0px;
 	}
 	
 	.icons a:last-of-type img{
-		margin: 15px 15px 30px 15px;
+		margin: 15px 15px 30px 0px;
 	}
 } 
 
@@ -509,11 +509,11 @@ body {
 	}
 	
 	.icons a:first-of-type img{
-		margin: 30px 15px 15px 15px;
+		margin: 30px 15px 15px 0px;
 	}
 	
 	.icons a:last-of-type img{
-		margin: 15px 15px 30px 15px;
+		margin: 15px 15px 30px 0px;
 	}
 	
 	.firstLetter {
@@ -603,11 +603,11 @@ body {
 	}
 	
 	.icons a:first-of-type img{
-		margin: 30px 15px 15px 15px;
+		margin: 30px 15px 15px 0px;
 	}
 	
 	.icons a:last-of-type img{
-		margin: 15px 15px 30px 15px;
+		margin: 15px 15px 30px 0px;
 	}
 	
 	.firstLetter {
@@ -625,7 +625,7 @@ body {
 	}
 }
 
-@media only screen and (max-width: 468px) {
+@media only screen and (max-width: 490px) {
 	#particles-js h1 {
 		font-size: 100%;
 	}
@@ -633,9 +633,6 @@ body {
 	#about {
 		width: 100%;
 	}
-	
-	
-	
 	
 	#portfolio {
 		width: 100%;
@@ -667,17 +664,17 @@ body {
 	}
 	
 	.firstLetter {
-		width: 25%;
+		width: 35%;
 		font-size: 160px;
 		text-align: center;
 	}
 	
 	.skillstext {
-		margin-left: calc(25% + 50px);
+		margin-left: calc(35% + 50px);
 	}
 	
 	.introtext {
-		width: calc(100% - 20px - 25%);
+		width: calc(100% - 20px - 35%);
 		margin-left: 30px;
 	}
 }
