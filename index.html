@@ -135,7 +135,7 @@
 					<h1>Contact</h1>
 					<div class="containerport">
 						<div class="innerleft" ng-controller="formController">
-							<form action="send_email.php" method="POST" ng-app="" name="form">
+							<form action="<form action="https://formspree.io/spikirard@gmail.com" method="POST">" method="POST" ng-app="" name="form">
 								<label>Name: </label><input type="text" placeholder="Name" name="name" ng-model="text1" required/>
 								<span ng-show="form.name.$touched && form.name.$invalid">The name is required</span>
 								<label>E-Mail: </label><input type="email" placeholder="E-Mail" name="email" ng-model="text2" required/>
@@ -143,7 +143,7 @@
 								<span ng-show="form.email.$error.email && form.email.$touched">Invalid email address</span>
 								<label>Comment: </label><textarea name="message" rows="10" cols="30" placeholder="Comment"  ng-model="text3" required></textarea>
 								<span ng-show="form.message.$touched && form.message.$invalid">Comment is required</span>
-								<button class="btn btnstyle">Submit</button>		
+								<button type="submit" class="btn btnstyle">Submit</button>		
 							</form>
 						</div>
 						<div class="innerright">

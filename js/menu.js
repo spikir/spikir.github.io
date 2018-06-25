@@ -6,6 +6,10 @@ $(document).ready(function(){
 	var currentIndex2 = '';
 	var slidePos = '';
 	
+	$(window).resize(function() {
+		$('#particles-js').css('height', $(window).innerHeight());
+	});
+	
 	$(window).on('beforeunload', function() {
 		$(window).scrollTop(0);
 	});
@@ -25,7 +29,7 @@ $(document).ready(function(){
 		array.push($(this).attr("href"));
 		slidearr.push([$(this).attr("href"), false]);
 	});
-
+	
 	function findIndex(valueToSearch, array) {
 		if(Array.isArray(array)) {
 			for(var i = 0; i < array.length; i++) {
