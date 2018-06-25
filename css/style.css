@@ -627,7 +627,7 @@ body {
 
 @media only screen and (max-width: 490px) {
 	#particles-js h1 {
-		font-size: 100%;
+		font-size: 150%;
 	}
 	
 	#about {
