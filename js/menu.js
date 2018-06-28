@@ -60,8 +60,8 @@ $(document).ready(function(){
 		$('.navi ul').addClass('no-touch');
 	} 
 	
-	$('.scrolldown').on('click', function() {
-		$('body').animate({
+	$('.scrolldown').click(function(){
+		$('html, body').animate({
 			scrollTop: $('#about').offset().top - 50
 		}, 500);
 	});
