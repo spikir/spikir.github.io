@@ -540,6 +540,8 @@ body {
 	
 	.skillstext {
 		margin-left: calc(25% + 65px);
+		margin-left: -moz-calc(25% + 65px);
+		margin-left: -webkit-calc(25% + 65px);
 	}
 	
 	.introtext {
@@ -637,6 +639,8 @@ body {
 	
 	.skillstext {
 		margin-left: calc(25% + 50px);
+		margin-left: -moz-calc(25% + 50px);
+		margin-left: -webkit-calc(25% + 50px);
 	}
 	
 	.introtext {
@@ -708,6 +712,8 @@ body {
 		width: -moz-calc(100% - 25% - 50px);
 		width: -webkit-calc(100% - 25% - 50px);
 		margin-left: calc(25% + 50px);
+		margin-left:  -moz-calc(25% + 50px);
+		margin-left: -webkit-calc(25% + 50px);
 	}
 }
 
