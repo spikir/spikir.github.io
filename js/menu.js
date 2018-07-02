@@ -6,7 +6,7 @@ $(document).ready(function(){
 	var slidePos = '';
 	
 	$(window).resize(function() {
-		$('#particles-js').css('height', $(window).innerHeight());
+			$('#particles-js').css('height', $(window).innerHeight());
 	});
 	
 	$(window).on('load',function(){
