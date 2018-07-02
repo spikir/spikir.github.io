@@ -682,13 +682,21 @@ body {
 	
 	.profiletext .intro:first-child  .firstLetter{
 		width: 25%;
-		text-align: right;
+		text-align: center;
+	}
+	
+	.intro {
+		position: relative;
 	}
 	
 	.firstLetter {
 		width: 25%;
 		font-size: 160px;
-		text-align: center;
+		margin-left: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		text-align: left;
 	}
 	
 	.skillstext {
@@ -699,7 +707,7 @@ body {
 		width: calc(100% - 25% - 50px);
 		width: -moz-calc(100% - 25% - 50px);
 		width: -webkit-calc(100% - 25% - 50px);
-		margin-left: 50px;
+		margin-left: calc(25% + 50px);
 	}
 }
 
