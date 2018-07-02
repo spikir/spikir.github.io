@@ -47,6 +47,8 @@ body {
 .backtotop {
 	position: fixed;
 	bottom: 50%;
+	top: 50%;
+	transform: translateY(-50%);
 	right: 0;
 	background-image: url('../img/back_to_top_icon_regular.png');
 	background-size: cover;
@@ -318,6 +320,7 @@ body {
 }
 
 .forthSentence {
+	color: hsl(226, 93%, 66%);
 	color: hsl(226, 93%, 66%);
 }
 
@@ -800,5 +803,16 @@ body {
 	.innerleft img {
 		float: left;
 		margin: 0px 15px 30px 30px;
+	}
+}
+
+@media (max-height: 400px) and (orientation: landscape) {
+	#particles-js h1 {
+		font-size: 150%;
+	}
+	
+	.scrolldown {
+		width: 75px;
+		height: 75px;
 	}
 }

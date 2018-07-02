@@ -93,9 +93,9 @@ $(document).ready(function(){
 				$('.navi li a[href="#contact"]').parent().addClass("active");
 			}
 		});
-		if(windowPos>$("#about").offset().top-400) {
+		if(windowPos>0) {
 			$(".backtotop").slideDown(3000);			
-		} else if(windowPos<$("#about").offset().top-400) {
+		} else if(windowPos===0) {
 			$(".backtotop").slideUp(3000);
 		}
 	});
