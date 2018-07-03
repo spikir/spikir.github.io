@@ -458,10 +458,14 @@ body {
 	height: 100%;
 	float: left;
 	width: calc(100% - 20px - 10%);
+	width: -moz-calc(100% - 20px - 10%);
+	width: -webkit-calc(100% - 20px - 10%);
 }
 
 .skillstext {
 	margin-left: calc(10% + 20px);
+	margin-left: -moz-calc(10% + 20px);
+	margin-left: -webkit-calc(10% + 20px);
 }
 
 .skillstext ul {
@@ -627,29 +631,36 @@ body {
 		margin-right: 0px;
 	}
 	
+	.container {
+		width: calc(100% - 60px);
+		width: -moz-calc(100% - 60px);
+		width: -webkit-calc(100% - 60px);
+		margin: 0px 30px 30px 30px;
+	}
+	
+	#contact label:first-child {
+		width: 30%;
+		margin: 0px 0px 10px 0px;
+	}
+	
 	#contact label {
 		width: 30%;
+		margin: 0px 0px 10px 0px;
 	}
 	
 	#contact input:first-of-type {
-		width: calc(100% - 60px);
-		width: -moz-calc(100% - 60px);
-		width: -webkit-calc(100% - 60px);
-		margin: 0px 30px 10px 30px;
+		width: 100%;
+		margin: 0px 0px 10px 0px;
 	}
 	
 	#contact input {
-		width: calc(100% - 60px);
-		width: -moz-calc(100% - 60px);
-		width: -webkit-calc(100% - 60px);
-		margin: 0px 30px 10px 30px;
+		width: 100%;
+		margin: 0px 0px 10px 0px;
 	}
 	
 	#contact textarea {
-		width: calc(100% - 60px);
-		width: -moz-calc(100% - 60px);
-		width: -webkit-calc(100% - 60px);
-		margin: 0px 30px 10px 30px;
+		width: 100%;
+		margin: 0px 0px 10px 0px;
 	}
 	
 	#contact span {
@@ -662,10 +673,8 @@ body {
 	}
 	
 	.btn {
-		width: calc(100% - 60px);
-		width: -moz-calc(100% - 60px);
-		width: -webkit-calc(100% - 60px);
-		margin: 10px 30px 30px 30px;
+		width: 100%;
+		margin: 10px 0px 0px 0px;
 	}
 	
 	.scrolldown {
@@ -686,28 +695,42 @@ body {
 	}
 	
 	.firstLetter {
-		width: 25%;
+		width: 35%;
 		font-size: 160px;
 		margin-left: 0;
 		position: absolute;
 		top: 0;
 		left: 0;
-		text-align: left;
+		text-align: center;
 	}
 	
 	.skillstext {
-		margin-left: calc(25% + 50px);
-		margin-left: -moz-calc(25% + 50px);
-		margin-left: -webkit-calc(25% + 50px);
+		margin-left: calc(35% + 50px);
+		margin-left: -moz-calc(35% + 50px);
+		margin-left: -webkit-calc(35% + 50px);
 	}
 	
 	.introtext {
-		width: calc(100% - 25% - 50px);
-		width: -moz-calc(100% - 25% - 50px);
-		width: -webkit-calc(100% - 25% - 50px);
-		margin-left: calc(25% + 50px);
-		margin-left:  -moz-calc(25% + 50px);
-		margin-left: -webkit-calc(25% + 50px);
+		width: calc(100% - 35% - 50px);
+		width: -moz-calc(100% - 35% - 50px);
+		width: -webkit-calc(100% - 35% - 50px);
+		margin-left: calc(35% + 50px);
+		margin-left:  -moz-calc(35% + 50px);
+		margin-left: -webkit-calc(35% + 50px);
+	}
+	
+	.innerleft {
+		width: calc(100% - 60px);
+		width: -moz-calc(100% - 60px);
+		width: -webkit-calc(100% - 60px);
+		margin: 0px 30px 0px 30px;
+	}
+	
+	.innerright {
+		width: calc(100% - 60px);
+		width: -moz-calc(100% - 60px);
+		width: -webkit-calc(100% - 60px);
+		margin: 0px 30px 0px 30px;
 	}
 }
 
@@ -754,26 +777,30 @@ body {
 	}
 	
 	.firstLetter {
-		width: 25%;
+		width: 35%;
 		font-size: 160px;
 		margin-left: 0;
 		position: absolute;
 		top: 0;
 		left: 0;
-		text-align: left;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	
 	.skillstext {
-		margin-left: calc(25% + 50px);
+		margin-left: calc(35% + 50px);
+		margin-left:  -moz-calc(35% + 50px);
+		margin-left: -webkit-calc(35% + 50px);
 	}
 	
 	.introtext {
-		width: calc(100% - 25% - 50px);
-		width: -moz-calc(100% - 25% - 50px);
-		width: -webkit-calc(100% - 25% - 50px);
-		margin-left: calc(25% + 50px);
-		margin-left:  -moz-calc(25% + 50px);
-		margin-left: -webkit-calc(25% + 50px);
+		width: calc(100% - 35% - 50px);
+		width: -moz-calc(100% - 35% - 50px);
+		width: -webkit-calc(100% - 35% - 50px);
+		margin-left: calc(35% + 50px);
+		margin-left:  -moz-calc(35% + 50px);
+		margin-left: -webkit-calc(35% + 50px);
 	}
 }
 
@@ -880,6 +907,25 @@ body {
 }
 
 @media only screen and (min-width: 1700px) {
+	.firstLetter {
+		width: 5%;
+	}
+	
+	.introtext {
+		width: calc(100% - 5% - 20px);
+		width: -moz-calc(100% - 5% - 20px);
+		width: -webkit-calc(100% - 5% - 20px);
+	}
+	
+	.skillstext {
+		width: calc(100% - 5% - 20px);
+		width: -moz-calc(100% - 5% - 20px);
+		width: -webkit-calc(100% - 5% - 20px);
+		margin-left: calc(5% + 20px);
+		margin-left: -moz-calc(5% + 20px);
+		margin-left: -webkit-calc(5% + 20px);
+	}
+	
 	.innerleft {
 		width: 50%;
 		float: left;
