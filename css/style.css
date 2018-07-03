@@ -652,6 +652,15 @@ body {
 		margin: 0px 30px 10px 30px;
 	}
 	
+	#contact span {
+		margin-left: 30px;
+		margin-right: 30px;
+		display: block;
+		width: calc(100% - 60px);
+		width: -moz-calc(100% - 60px);
+		width: -webkit-calc(100% - 60px);
+	}
+	
 	.btn {
 		width: calc(100% - 60px);
 		width: -moz-calc(100% - 60px);
