@@ -631,6 +631,13 @@ body {
 		width: 30%;
 	}
 	
+	#contact input:first-of-type {
+		width: calc(70% - 60px);
+		width: -moz-calc(70% - 60px);
+		width: -webkit-calc(70% - 60px);
+		margin: 0px 0px 10px 0px;
+	}
+	
 	#contact input {
 		width: calc(70% - 60px);
 		width: -moz-calc(70% - 60px);
