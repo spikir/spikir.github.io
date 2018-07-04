@@ -68,7 +68,7 @@ $(document).ready(function(){
 	
 	$(".backtotop").click(function(){
 		$('html, body').animate({
-			scrollTop: $("#home").offset().top
+			scrollTop: 0
 		}, 500);
 	});
 	
@@ -98,6 +98,7 @@ $(document).ready(function(){
 		} else if(windowPos===0) {
 			$(".backtotop").slideUp(3000);
 		}
+		$('#particles-js').css('height', $(window).innerHeight());
 	});
 }); 
 
