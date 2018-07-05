@@ -67,6 +67,7 @@ $(document).ready(function(){
 	});
 	
 	$(".backtotop").click(function(){
+		$('#particles-js').css('height', "100vh");
 		$('html, body').animate({
 			scrollTop: 0
 		}, 500);
@@ -98,7 +99,6 @@ $(document).ready(function(){
 		} else if(windowPos===0) {
 			$(".backtotop").slideUp(3000);
 		}
-		$('#particles-js').css('height', $(window).innerHeight());
 	});
 }); 
 
