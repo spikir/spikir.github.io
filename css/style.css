@@ -516,11 +516,11 @@ body {
 	}
 	
 	.icons a:first-of-type img{
-		margin: 30px 15px 15px 0px;
+		margin: 30px 0px 15px 0px;
 	}
 	
 	.icons a:last-of-type img{
-		margin: 15px 15px 30px 0px;
+		margin: 15px 0px 30px 0px;
 	}
 } 
 
@@ -558,11 +558,11 @@ body {
 	}
 	
 	.icons a:first-of-type img{
-		margin: 30px 15px 15px 0px;
+		margin: 30px 0px 15px 0px;
 	}
 	
 	.icons a:last-of-type img{
-		margin: 15px 15px 30px 0px;
+		margin: 15px 0px 30px 0px;
 	}
 	
 	.firstLetter {
@@ -683,11 +683,11 @@ body {
 	}
 	
 	.icons a:first-of-type img{
-		margin: 30px 15px 15px 0px;
+		margin: 30px 0px 15px 0px;
 	}
 	
 	.icons a:last-of-type img{
-		margin: 15px 15px 30px 0px;
+		margin: 15px 0px 30px 0px;
 	}
 	
 	.intro {
