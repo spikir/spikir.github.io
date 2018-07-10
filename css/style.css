@@ -612,7 +612,8 @@ body {
 	.backtotop {
 		height: 50px;
 		width: 50px;
-		bottom: 0;
+		bottom: 3%;
+		right: 3%;
 		top: auto;
 		transform: translate(0);
 		-ms-transform: translate(0);
