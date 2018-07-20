@@ -9,9 +9,8 @@
 	color: #FFFFFF;
 	text-transform: uppercase;
 	font-size: 500%;
-	display: table-cell;
 	display: inline-block;
-	position: initial;
+	position: static;
 }
 
 .navi ul {
