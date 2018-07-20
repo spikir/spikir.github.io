@@ -139,9 +139,11 @@
 							<form action="https://formspree.io/spikirard@gmail.com" method="POST" ng-app="" name="form">
 								<label>Name: </label><input type="text" placeholder="Name" name="name" ng-model="text1" required/>
 								<span ng-show="form.name.$touched && form.name.$invalid">Name is required</span>
+								<div class="clear"></div>
 								<label>E-Mail: </label><input type="email" placeholder="E-Mail" name="email" ng-model="text2" required/>
 								<span ng-show="form.email.$error.required && form.email.$touched">Email is required</span>
 								<span ng-show="form.email.$error.email && form.email.$touched">Invalid email address</span>
+								<div class="clear"></div>
 								<label>Comment: </label><textarea name="message" rows="10" cols="30" placeholder="Comment"  ng-model="text3" required></textarea>
 								<span ng-show="form.message.$touched && form.message.$invalid">Comment is required</span>
 								<button type="submit" class="btn btnstyle">Submit</button>		
