@@ -998,10 +998,9 @@ body {
 	}
 	
 	#home {
-		display: table;
-		height: 100%;
-		width: 100%;
+		display: table;	
 	}
+	
 	.table-cell-wrapper {
 		position: absolute;
 		width: 100%;
@@ -1014,6 +1013,7 @@ body {
 		vertical-align: middle;
 		display: table-cell;
 		text-align: center;
+		background-color: red;
 	}
 }
 
