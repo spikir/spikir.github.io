@@ -7,10 +7,12 @@ $(document).ready(function(){
 	
 	$(window).resize(function() {
 		$('#particles-js').css('height', $(window).innerHeight());
+		$('.table-cell').css('height', $("#particles-js").height());
 	});
 	
 	$(window).on('load',function(){
 		$('#particles-js').css('height', $(window).innerHeight());
+		$('.table-cell').css('height', $("#particles-js").height());
 	});
 	
 	$(window).on('beforeunload', function() {

@@ -1008,13 +1008,11 @@ body {
 	}
 
 	.table-cell {
-		height: 100%;
 		width: 100%;
 		vertical-align: middle;
 		display: table-cell;
 		text-align: center;
 		background-color: red;
-		height: 500px;
 	}
 }
 
