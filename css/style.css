@@ -60,9 +60,13 @@ body {
 
 #particles-js h1 {
 	color: #FFFFFF;
-	position: absolute;
 	text-transform: uppercase;
 	font-size: 500%;
+}
+
+.table-cell-wrapper {
+	position: absolute;
+	height: 100%;
 }
 
 .navi {
