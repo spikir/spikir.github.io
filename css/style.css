@@ -992,6 +992,8 @@ body {
 		font-size: 500%;
 		position: absolute;
 		width: 100%;
+		padding: 0;
+		margin: 0;
 	}
 	
 	.navi ul {
