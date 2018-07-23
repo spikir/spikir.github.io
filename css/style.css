@@ -335,7 +335,6 @@ body {
 
 .forthSentence {
 	color: hsl(226, 93%, 66%);
-	color: hsl(226, 93%, 66%);
 }
 
 .footer {
@@ -958,6 +957,71 @@ body {
 @media (max-height: 400px) and (orientation: landscape) {
 	#particles-js h1 {
 		font-size: 150%;
+	}
+	
+	.scrolldown {
+		width: 75px;
+		height: 75px;
+	}
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     #home {
+		display: table;
+		height: 100%;
+		width: 100%;
+	}
+
+	#particles-js {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+	#particles-js h1 {
+		color: #FFFFFF;
+		text-transform: uppercase;
+		font-size: 500%;
+		position: absolute;
+		width: 100%;
+	}
+	
+	.navi ul {
+		width: 40%;
+		margin: 0 auto;
+		list-style: none;
+		padding: 0;
+	}
+
+	.navi ul li {
+		width: 25%;
+	}
+}
+
+@media (max-width: 992px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	#particles-js h1 {
+		font-size: 300%;
+	}
+}
+
+@media (max-width: 768px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	#particles-js h1 {
+		font-size: 250%;
+	}
+	
+	.scrolldown {
+		width: 100px;
+		height: 100px;
+	}
+}
+
+@media (max-width: 600px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.navi ul {
+		width: 100%;
+	}
+	
+	#particles-js h1 {
+		font-size: 100%;
 	}
 	
 	.scrolldown {

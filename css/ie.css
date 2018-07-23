@@ -1,0 +1,30 @@
+#home {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+#particles-js {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#particles-js h1 {
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 500%;
+	position: absolute;
+	width: 100%;
+}
+
+.navi ul {
+	width: 40%;
+	margin: 0 auto;
+	list-style: none;
+	padding: 0;
+}
+
+.navi ul li {
+	width: 25%;
+}
