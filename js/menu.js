@@ -7,11 +7,13 @@ $(document).ready(function(){
 	
 	$(window).resize(function() {
 		$('#particles-js').css('height', $(window).innerHeight());
+		$('#table-cell-wrapper').css('height', $("#particles-js").height());
 		$('.table-cell').css('height', $("#particles-js").height());
 	});
 	
 	$(window).on('load',function(){
 		$('#particles-js').css('height', $(window).innerHeight());
+		$('#table-cell-wrapper').css('height', $("#particles-js").height());
 		$('.table-cell').css('height', $("#particles-js").height());
 	});
 	
