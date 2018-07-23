@@ -1014,6 +1014,7 @@ body {
 		display: table-cell;
 		text-align: center;
 		background-color: red;
+		height: 500px;
 	}
 }
 
