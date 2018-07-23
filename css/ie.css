@@ -39,3 +39,9 @@
 .navi ul li {
 	width: 25%;
 }
+
+@media only screen and (max-width: 600px) {
+	.navi ul {
+		width: 100%;
+	}
+}
