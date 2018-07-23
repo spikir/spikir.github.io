@@ -7,17 +7,27 @@
 #particles-js {
 	width: 100%;
 	height: 100%;
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
 }
 
 #particles-js h1 {
 	color: #FFFFFF;
 	text-transform: uppercase;
 	font-size: 500%;
-	position: absolute;
 	width: 100%;
+	bottom: 50%;
+}
+
+.table-cell-wrapper {
+    position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.table-cell {
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    display: table-cell;
 }
 
 .navi ul {
