@@ -997,6 +997,11 @@ body {
 		width: 25%;
 	}
 	
+	#home {
+		display: table;
+		height: 100%;
+		width: 100%;
+	}
 	.table-cell-wrapper {
 		position: absolute;
 		width: 100%;
